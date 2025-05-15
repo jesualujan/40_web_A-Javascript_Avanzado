@@ -38,8 +38,28 @@
                 </div>
             </div>
         </form>
+        
 
+        <!-- Buscar por ID-->
+         <div class="input-group mb-4">
+            <input type="number" id="search-id" class="form-control" placeholder="Buscar producto por ID">
+            <button id="search-btn" class="btn btn-primary"> Buscar</button>
+         </div>
 
+         <!-- Tabla de productos -->
+          <div class="table-responsive">
+            <table class="table table-bordered table-hover">
+                <thead class="table-dark">
+                <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="product-table"></tbody>
+            </table>
+          </div>
     </div>
     <script type="module" src="app.js"></script>
 </body>
