@@ -13,7 +13,7 @@ h1{
     color: #0d6efd;
 }
 
-.table th {
+.table th , .table td{
     vertial-align: middle;
     text-align: center;
 }
